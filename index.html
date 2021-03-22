@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My Page</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   
+  </head>
+  <body>
+      
+    <nav class="navbar navbar-light bg-dark">
+  <div class="form-inline">
+    <input class="form-control mr-sm-2" id="cep" type="text" placeholder="Informe o seu CEP" aria-label="Pesquisar">
+    <button onclick="consultaCep()" class="btn btn-outline-success my-2 my-sm-0" id="btn" type="button">BUSCAR</button>
+  </div>
+</nav>
+<div class="container space">
+<table class="table">
+  <thead>
+  
+   
+  </thead>
+  <tbody>
+     
+    <tr>
+      <th scope="row">Logradouro:</th>
+      <td id="logradouro"></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">Bairro:</th>
+      <td id="bairro"></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">Cidade:</th>
+      <td id="localidade"></td>
+     
+    </tr>
+     <tr>
+      <th scope="row">UF:</th>
+      <td id="uf"></td>
+     
+    </tr>
+    <tr>
+      <th scope="row">CEP:</th>
+      <td id="resCep"></td>
+     
+    </tr>
+    
+     
+  </tbody>
+</table>
+</div>
+
+ <script type="text/javascript" src="jquery-min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
